@@ -1,5 +1,5 @@
 # Tatiana Snook
-----
+
 ### Frontend developer
 ----
 ### My contact information
@@ -7,7 +7,9 @@
 * Email: tatsnook@gmail.com
 ----
 ### About me
+
 I am really enjoying the logical and creative sides of programming.
+
 ----
 ### Skills
 * HTML/CSS
