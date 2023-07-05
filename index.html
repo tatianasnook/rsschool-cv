@@ -3,9 +3,151 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <img class="my-pic2" src="purple-modified.png" alt="profile picture" width="150">
+      <ul class="nav-menu">
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#code">Code</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#language">Language</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="box1">
+        <img class="my-pic" src="purple-modified.png" alt="profile picture" width="200">
+      </div>
+      
+      <div class="box2">
+        <h1>Tatiana Snook</h1>
+        <h2>Front-End developer</h2>
+      </div>
+      
+    </section>
+
+    <section id="aboutMe">
+      <h2>About me</h2>
+      <p>
+        I am an enthusiastic learner with a passion for web development. I enjoy the 
+        logical and creative aspects of this field, constantly seeking to expand my 
+        knowledge and skill set. I approach challenges with a growth mindset, blending 
+        technical proficiency with artistic flair to create visually appealing and 
+        user-friendly web experiences.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>GSAP</li>
+        <li>Git, GitHub</li>
+        <li>VS Code, WebStorm</li>
+      </ul>
+    </section>
+
+    <section id="code">
+      <h2>Code example</h2>
+      <pre>
+        <code>
+          function fizzBuzz(num){
+            for (let i = 1; i &lt;= num; i++ ){
+              if( i % 3 === 0 && i % 5 === 0){
+                console.log('fizzbuzz');
+              } else if (i % 5 === 0){
+                console.log('buzz');
+              } else if (i % 3 === 0){
+                console.log('fizz');
+              } else {
+                console.log(i);
+              }
+            }
+          }
+        </code>
+      </pre>
+    </section>
+
+    <section id="projects">
+      <h2>My projects</h2>
+      <ul>
+        <li>
+          <a href="https://burger-landing.glitch.me" target="_blank">Landing page for Burger House restaurant</a>
+        </li>
+        <li>
+          <a href="https://christmas-countdown-application.glitch.me" target="_blank">Christmas countdown page</a>
+        </li>
+        <li>
+          <a href="https://low-blood-pressure.glitch.me" target="_blank">Relaxing app</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>student at RS school</li>
+        <li>student at Nucamp (Full Stack Web + Mobile Development)</li>
+        <li>Bachelor of Science in Radiation Therapy, Saint Louis University</li>
+      </ul>
+    </section>
+
+    <section id="language">
+      <h2>Languages</h2>
+      <ul>
+        <li>English - fluent</li>
+        <li>Russian - native</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Phone: +1 314 9171217</li>
+        <li>
+          <a href="mailto:tatsnook@gmail.com">Email me</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tatiana-snook-765997264/" target="_blank">Linkedin</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <a class="link" href="https://github.com/tatianasnook" target="_blank">
+          <img src="icons8-github-50.png" alt="GitHub logo">
+        </a>
+        <h5>2023</h5>
+        <a class="link" href="https://rs.school/js-stage0/">
+          <img src="rs_school_js.svg" alt="rs school logo" width="100">
+        </a>
+      </div>
+    </footer>
+
+  </main>
 </body>
 </html>
